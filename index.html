@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bubble Game</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main id="one-sec">
+        <section class="index">
+            <h1>Bubble Game</h1>
+            <div role="textbox">
+                <input type="text" placeholder="Enter your name" value="" id="input">
+            </div>
+            <div>
+                <button id="btnStart" type="submit">Start game</button>
+            </div>
+        </section>
+    </main>
+
+
+    <main class="game-buble" id="game-main">
+        <section class="game-box" id="gameBox">
+          <section class="auth-info">
+            <p class="person">Player:</p>
+            <p class="score">Score:0</p>
+            <p class="high">High score: 0</p>
+          </section>
+  
+          <div class="game-zone-box"></div>
+          <section>
+            <div class="level-btns">
+              <button class="level-btn easy" value="2000"  disabled >Easy</button>
+              <button class="level-btn medium" value="1500" disabled >Medium</button>
+              <button class="level-btn hard"  value="1000"  disabled>Hard</button>
+            </div>
+            <div class="controls-btns">
+              <button class="start">Start Game</button>
+              <button class="delete level-btn" disabled>Stop Game</button>
+            </div>
+          </section>
+        </section>
+      </main>
+    
+
+    <script src="app.js"></script>
+</body>
+</html>

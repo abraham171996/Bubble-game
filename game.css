@@ -1,0 +1,80 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.game-buble{
+    width: 100%;
+    height: 100vh;
+    background-color: #2471a3;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.game-box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    justify-content: space-evenly;
+    width: 400px;
+    height: 98%;
+    background-color:#5499c7 ;
+    border-radius: 15px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+}
+
+
+.game-zone-box{
+    position: relative;
+    background-color: #1a5276;
+    width: 390px;
+    height: 50%;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+button{
+    cursor: pointer;
+    border: none;
+    outline: none;
+    background-color: #1a5276;
+    font-size: 14px;
+    padding: 10px 20px;
+    color: #fff;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    font-size: 18px;
+}
+section>.auth-info>p{
+color: #fff;
+font-size: 25px;
+}
+
+.controls-btns{
+    margin-top: 5px;
+    display: flex;
+    gap: 8px;
+}
+.level-btn{
+    background-color: #EEEEEE;
+}
+@media(max-width:350px){
+    .game-box{
+        width: 300px;
+    }
+    .game-zone-box{
+        width: 300px;
+    }
+}

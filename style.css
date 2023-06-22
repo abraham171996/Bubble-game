@@ -1,0 +1,78 @@
+@import url(./game.css);
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+main{
+    width: 100%;
+    height: 100vh;
+    background-color: #2471a3;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+ 
+
+}
+.buble{
+    position: absolute;
+    width: 7px;
+    height: 30px;
+    background-color: red;
+    border-radius: 50%;
+}
+main>.index{
+    width: 350px;
+    height: 250px;
+    border-radius: 15px;
+    background-color:#1a5276 ;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    margin: auto;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+}
+
+main>.index>h1{
+    color: #ffffff;
+}
+
+main>.index>div>input{
+    width: 300px;
+    font-size: 14px;
+    padding: 14px ;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    border: none;
+    outline: none;
+}
+
+main>.index>div>button{
+    font-size: 14px;
+    padding: 10px 25px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    color: #ffffff;
+    background-color: #2471a3;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    cursor: pointer;
+}
+.enabled{
+    background-color: #1a5276;
+}
+.level-btn{
+    background-color: rgba(239, 239, 239, 0.3);
+}
